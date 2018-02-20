@@ -13,7 +13,10 @@ platform target for the app
 
 things to do
 --ethereum name service
+
+things to consider
 --swarm vs. ipfs
+--how to handle variations in contract behavior - god contract composition vs multiple contracts - inheritance?
 
 
 things to consider long term
