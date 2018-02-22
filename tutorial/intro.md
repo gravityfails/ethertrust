@@ -10,6 +10,7 @@ platform target for the app
 --html site with metamask integration
 --myst browser
 --toshi app
+--android/ios - geth light client?
 
 things to do
 --ethereum name service
