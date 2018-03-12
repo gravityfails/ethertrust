@@ -36,7 +36,8 @@ Tutorials to get the basic concepts of the underlying technologies
 the basics of getting setup
 setting up an ethereum node
   usefule commands
-    -geth --testnet --syncmode "fast" --cache=1024 --rpc --rpcapi eth,net,web3,personal
+    //-- know the rpc and net endpoints
+    geth --testnet --syncmode "fast" --cache=1024 --rpc --rpcapi eth,net,web3,personal
 
     //-- node
     eth.syncing
