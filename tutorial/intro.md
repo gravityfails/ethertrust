@@ -30,7 +30,8 @@ Tutorials to get the basic concepts of the underlying technologies
 --ethereum
 --solidity
 --javascript - codeacademy
---node
+--node.js
+--npm
 
 
 the basics of getting setup
