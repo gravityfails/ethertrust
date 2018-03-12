@@ -32,3 +32,27 @@ Tutorials to get the basic concepts of the underlying technologies
 --javascript - codeacademy
 --node
 
+
+the basics of getting setup
+setting up an ethereum node
+  usefule commands
+    -geth --testnet --syncmode "fast" --cache=1024 --rpc --rpcapi eth,net,web3,personal
+
+    //-- node
+    eth.syncing
+    admin.nodeInfo
+    web3.eth.blockNumber
+
+    //-- minind
+    miner.setEtherbase(eth.accounts[1])
+    miner.start(1) - single thread to not use up all cpu
+    miner.stop()
+    web3.eth.mining
+
+
+    //-- accounts
+    eth.accounts
+    personal.newAccount('some pass phrase')
+    personal.unlockAccount('0x1aa1ff3396d744a72613cc3efc7546afa58d3e62', 'some pass phrase', 2*60*60)
+    web3.eth.getBalance("0x9deb5d5eeb6ee6e3f21ceab901db6a91313bbacb")
+
